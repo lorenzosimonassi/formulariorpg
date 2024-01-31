@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+
+
+*{
+    text-decoration: none;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+nav h1{
+    font-family: 'MedievalSharp', cursive;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 55px;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 2px 2px 0 black;
+    background-image: url('https://images6.alphacoders.com/134/1344519.png');
+    background-size: cover;
+}
+#principal{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    height: 100vh;
+    background-image: url('https://images6.alphacoders.com/134/1344519.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.formulario1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+body label{
+    font-size: 25px;
+    margin-top: 15px;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 2px 2px 0 black;
+}
+body input{
+    height: 28px;
+    width: 295px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+#botao input{
+    height: 50px;
+    width: 200px;
+    margin-top: 15px;
+    font-size: 20px;
+    background-color: rgb(90, 224, 90);
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+#botao input:hover{
+    background-color: rgb(27, 107, 27);
+    transition: 0.6s;
+}
+
+.borda-vermelha {
+    border-color: red !important;
+    border: 2px solid;
+}
+
+.borda-verde {
+    border-color: green !important;
+    border: 2px solid;
+}
